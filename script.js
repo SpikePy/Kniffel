@@ -1,5 +1,9 @@
-function safeParseInt(str) {
-    return str === "" ? 0 : parseInt(str, 10);
+// Define a own function that makes sure that an int is returned even if the input field is empty
+function safeParseInt(input) {
+    if (/\d+/.test(input)) {
+        return input === "" ? 0 : parseInt(input, 10);
+    }
+    return 0
 }
 
 function calculate() {
