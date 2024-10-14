@@ -37,10 +37,10 @@ function calculate() {
 
     _game1_total_sum = _game1_upper_sum + _game1_upper_bonus + _game1_lower_sum
 
-    game1_upper_sum.innerText = _game1_upper_sum
-    game1_upper_bonus.innerText = _game1_upper_bonus
-    game1_lower_sum.innerText = _game1_lower_sum
-    game1_total_sum.innerText = _game1_total_sum
+    game1_upper_sum.innerText = _game1_upper_sum === 0 ? "" : _game1_upper_sum
+    game1_upper_bonus.innerText = _game1_upper_bonus === 0 ? "" : _game1_upper_bonus
+    game1_lower_sum.innerText = _game1_lower_sum === 0 ? "" : _game1_lower_sum
+    game1_total_sum.innerText = _game1_total_sum === 0 ? "" : _game1_total_sum
 
     _game2_upper_sum =
         safeParseInt(game2_upper_1.value) +
@@ -72,10 +72,10 @@ function calculate() {
 
     _game2_total_sum = _game2_upper_sum + _game2_upper_bonus + _game2_lower_sum
 
-    game2_upper_sum.innerText = _game2_upper_sum
-    game2_upper_bonus.innerText = _game2_upper_bonus
-    game2_lower_sum.innerText = _game2_lower_sum
-    game2_total_sum.innerText = _game2_total_sum
+    game2_upper_sum.innerText = _game2_upper_sum === 0 ? "" : _game2_upper_sum
+    game2_upper_bonus.innerText = _game2_upper_bonus === 0 ? "" : _game2_upper_bonus
+    game2_lower_sum.innerText = _game2_lower_sum === 0 ? "" : _game2_lower_sum
+    game2_total_sum.innerText = _game2_total_sum === 0 ? "" : _game2_total_sum
 
     _game3_upper_sum =
         safeParseInt(game3_upper_1.value) +
@@ -107,10 +107,10 @@ function calculate() {
 
     _game3_total_sum = _game3_upper_sum + _game3_upper_bonus + _game3_lower_sum
 
-    game3_upper_sum.innerText = _game3_upper_sum
-    game3_upper_bonus.innerText = _game3_upper_bonus
-    game3_lower_sum.innerText = _game3_lower_sum
-    game3_total_sum.innerText = _game3_total_sum
+    game3_upper_sum.innerText = _game3_upper_sum === 0 ? "" : _game3_upper_sum
+    game3_upper_bonus.innerText = _game3_upper_bonus === 0 ? "" : _game3_upper_bonus
+    game3_lower_sum.innerText = _game3_lower_sum === 0 ? "" : _game3_lower_sum
+    game3_total_sum.innerText = _game3_total_sum === 0 ? "" : _game3_total_sum
 
     _game4_upper_sum =
         safeParseInt(game4_upper_1.value) +
@@ -142,10 +142,10 @@ function calculate() {
 
     _game4_total_sum = _game4_upper_sum + _game4_upper_bonus + _game4_lower_sum
 
-    game4_upper_sum.innerText = _game4_upper_sum
-    game4_upper_bonus.innerText = _game4_upper_bonus
-    game4_lower_sum.innerText = _game4_lower_sum
-    game4_total_sum.innerText = _game4_total_sum
+    game4_upper_sum.innerText = _game4_upper_sum === 0 ? "" : _game4_upper_sum
+    game4_upper_bonus.innerText = _game4_upper_bonus === 0 ? "" : _game4_upper_bonus
+    game4_lower_sum.innerText = _game4_lower_sum === 0 ? "" : _game4_lower_sum
+    game4_total_sum.innerText = _game4_total_sum === 0 ? "" : _game4_total_sum
 
     _game5_upper_sum =
         safeParseInt(game5_upper_1.value) +
@@ -177,8 +177,8 @@ function calculate() {
 
     _game5_total_sum = _game5_upper_sum + _game5_upper_bonus + _game5_lower_sum
 
-    game5_upper_sum.innerText = _game5_upper_sum
-    game5_upper_bonus.innerText = _game5_upper_bonus
-    game5_lower_sum.innerText = _game5_lower_sum
-    game5_total_sum.innerText = _game5_total_sum
+    game5_upper_sum.innerText = _game5_upper_sum === 0 ? "" : _game5_upper_sum
+    game5_upper_bonus.innerText = _game5_upper_bonus === 0 ? "" : _game5_upper_bonus
+    game5_lower_sum.innerText = _game5_lower_sum === 0 ? "" : _game5_lower_sum
+    game5_total_sum.innerText = _game5_total_sum === 0 ? "" : _game5_total_sum
 }
