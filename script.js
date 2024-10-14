@@ -15,16 +15,7 @@ function calculate() {
         safeParseInt(game1_upper_5.value) +
         safeParseInt(game1_upper_6.value)
 
-    if (safeParseInt(game1_upper_1.value) +
-        safeParseInt(game1_upper_2.value) +
-        safeParseInt(game1_upper_3.value) +
-        safeParseInt(game1_upper_4.value) +
-        safeParseInt(game1_upper_5.value) +
-        safeParseInt(game1_upper_6.value) > 62) {
-        _game1_upper_bonus = 35
-    } else {
-        _game1_upper_bonus = 0
-    }
+    _game1_upper_bonus = _game1_upper_sum > 62 ? 35 : 0
 
     _game1_lower_sum =
         safeParseInt(game1_lower_3.value) +
@@ -50,16 +41,7 @@ function calculate() {
         safeParseInt(game2_upper_5.value) +
         safeParseInt(game2_upper_6.value)
 
-    if (safeParseInt(game2_upper_1.value) +
-        safeParseInt(game2_upper_2.value) +
-        safeParseInt(game2_upper_3.value) +
-        safeParseInt(game2_upper_4.value) +
-        safeParseInt(game2_upper_5.value) +
-        safeParseInt(game2_upper_6.value) > 62) {
-        _game2_upper_bonus = 35
-    } else {
-        _game2_upper_bonus = 0
-    }
+    _game2_upper_bonus = _game2_upper_sum > 62 ? 35 : 0
 
     _game2_lower_sum =
         safeParseInt(game2_lower_3.value) +
@@ -85,16 +67,7 @@ function calculate() {
         safeParseInt(game3_upper_5.value) +
         safeParseInt(game3_upper_6.value)
 
-    if (safeParseInt(game3_upper_1.value) +
-        safeParseInt(game3_upper_2.value) +
-        safeParseInt(game3_upper_3.value) +
-        safeParseInt(game3_upper_4.value) +
-        safeParseInt(game3_upper_5.value) +
-        safeParseInt(game3_upper_6.value) > 62) {
-        _game3_upper_bonus = 35
-    } else {
-        _game3_upper_bonus = 0
-    }
+    _game3_upper_bonus = _game3_upper_sum > 62 ? 35 : 0
 
     _game3_lower_sum =
         safeParseInt(game3_lower_3.value) +
@@ -120,16 +93,7 @@ function calculate() {
         safeParseInt(game4_upper_5.value) +
         safeParseInt(game4_upper_6.value)
 
-    if (safeParseInt(game4_upper_1.value) +
-        safeParseInt(game4_upper_2.value) +
-        safeParseInt(game4_upper_3.value) +
-        safeParseInt(game4_upper_4.value) +
-        safeParseInt(game4_upper_5.value) +
-        safeParseInt(game4_upper_6.value) > 62) {
-        _game4_upper_bonus = 35
-    } else {
-        _game4_upper_bonus = 0
-    }
+    _game4_upper_bonus = _game4_upper_sum > 62 ? 35 : 0
 
     _game4_lower_sum =
         safeParseInt(game4_lower_3.value) +
@@ -155,16 +119,7 @@ function calculate() {
         safeParseInt(game5_upper_5.value) +
         safeParseInt(game5_upper_6.value)
 
-    if (safeParseInt(game5_upper_1.value) +
-        safeParseInt(game5_upper_2.value) +
-        safeParseInt(game5_upper_3.value) +
-        safeParseInt(game5_upper_4.value) +
-        safeParseInt(game5_upper_5.value) +
-        safeParseInt(game5_upper_6.value) > 62) {
-        _game5_upper_bonus = 35
-    } else {
-        _game5_upper_bonus = 0
-    }
+    _game5_upper_bonus = _game5_upper_sum > 62 ? 35 : 0
 
     _game5_lower_sum =
         safeParseInt(game5_lower_3.value) +
