@@ -32,6 +32,9 @@ function calculate(gameNumber){
     document.getElementById(`game${gameNumber}_upper_bonus`).innerText = upper_bonus === 0 ? "" : upper_bonus
     document.getElementById(`game${gameNumber}_lower_sum`).innerText   = lower_sum   === 0 ? "" : lower_sum
     document.getElementById(`game${gameNumber}_total_sum`).innerText   = total_sum   === 0 ? "" : total_sum
+
+    all_total_sum.innerText = safeParseInt(game1_total_sum.innerText) + safeParseInt(game2_total_sum.innerText) + safeParseInt(game3_total_sum.innerText) + safeParseInt(game4_total_sum.innerText) + safeParseInt(game5_total_sum.innerText)
+    if (all_total_sum.innerText == "0"){all_total_sum.innerText = ""}
 }
 
 function calculate_all(){

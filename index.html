@@ -76,8 +76,7 @@
             <td><input type="number" onclick="calculate(5)" id="game5_upper_6" min="0" max="36" step="6"/></td>
         </tr>
         <tr>
-            <th>Summe oben</th>
-            <th></th>
+            <th colspan="2">Summe oben</th>
             <th id="game1_upper_sum"></th>
             <th id="game2_upper_sum"></th>
             <th id="game3_upper_sum"></th>
@@ -85,8 +84,7 @@
             <th id="game5_upper_sum"></th>
         </tr>
         <tr>
-            <th>Bonus (>62)</th>
-            <th>+35</th>
+            <th colspan="2">+35 Bonus (oben >62)</th>
             <th id="game1_upper_bonus"></th>
             <th id="game2_upper_bonus"></th>
             <th id="game3_upper_bonus"></th>
@@ -157,8 +155,7 @@
             <td><input type="number" onclick="calculate(5)" id="game5_lower_chance" min="0" max="36"/></td>
         </tr>
         <tr>
-            <th>Summe unten</th>
-            <th></th>
+            <th colspan="2">Summe unten</th>
             <th id="game1_lower_sum"></th>
             <th id="game2_lower_sum"></th>
             <th id="game3_lower_sum"></th>
@@ -166,13 +163,16 @@
             <th id="game5_lower_sum"></th>
         </tr>
         <tr>
-            <th>Gesamtsumme</th>
-            <th></th>
+            <th colspan="2">Gesamtsumme</th>
             <th id="game1_total_sum"></th>
             <th id="game2_total_sum"></th>
             <th id="game3_total_sum"></th>
             <th id="game4_total_sum"></th>
             <th id="game5_total_sum"></th>
+        </tr>
+        <tr>
+            <th colspan="2">Total</th>
+            <th colspan="5" id="all_total_sum"></th>
         </tr>
 </table>
 </body>
